@@ -238,12 +238,10 @@
 }
 .circle-container {
     height: 160px;
+    display: flex;
 }
-.circle-text {
-    display: inline-block;
-    padding-top: 10px;
-    font-size: 30px;
-    color: #3c4761;
+#text-circle  {
+    display: none;
 }
 .foreground-circle {
     background-color: #000;
