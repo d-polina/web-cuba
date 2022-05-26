@@ -193,27 +193,35 @@
                 <div class="skills-block-circle" id="circle">
                     <p class="skills-block-digit">90<span class="skills-block-percent">%</span></p>
                 </div>
-                
                 <div class="skills-block-text">Web Design</div>
             </div>
 
             <div class="skills-block">
-                <div class="skills-block-circle"></div>
-                <div class="skills-block-digit">75<span class="skills-block-percent">%</span></div>
+                <div class="skills-block-circle" id="circle2">
+                    <p class="skills-block-digit">75<span class="skills-block-percent">%</span></p>
+                </div>
                 <div class="skills-block-text">HTML / CSS</div>
             </div>
 
             <div class="skills-block">
-                <div class="skills-block-circle"></div>
-                <div class="skills-block-digit">70<span class="skills-block-percent">%</span></div>
+                <div class="skills-block-circle" id="circle3">
+                    <p class="skills-block-digit">70<span class="skills-block-percent">%</span></p>
+                </div>
                 <div class="skills-block-text">GRAPHIC DESIGN</div>
             </div>
 
             <div class="skills-block">
+                <div class="skills-block-circle" id="circle4">
+                    <p class="skills-block-digit">85<span class="skills-block-percent">%</span></p>
+                </div>
+                <div class="skills-block-text">UI / UX</div>
+            </div>
+
+            <!-- <div class="skills-block">
                 <div class="skills-block-circle"></div>
                 <div class="skills-block-digit">85<span class="skills-block-percent">%</span></div>
                 <div class="skills-block-text">UI / UX</div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- /.skills -->
@@ -360,11 +368,36 @@
             noPercentageSign: false,
             backgroundCircleWidth: 15,
             foregroundCircleWidth: 15,
-            // progressColors: [
-            //     {percent: 1, color: 'red'},
-            //     {percent: 30, color: 'orange'},
-            //     {percent: 60, color: 'green'}
-            //     ]
+        });
+        circliful.newCircle({
+            percent: 75,
+            id: 'circle2',
+            type: 'simple',
+            text: '',
+            strokeLinecap: "butt",
+            noPercentageSign: false,
+            backgroundCircleWidth: 15,
+            foregroundCircleWidth: 15,
+        });
+        circliful.newCircle({
+            percent: 70,
+            id: 'circle3',
+            type: 'simple',
+            text: '',
+            strokeLinecap: "butt",
+            noPercentageSign: false,
+            backgroundCircleWidth: 15,
+            foregroundCircleWidth: 15,
+        });
+        circliful.newCircle({
+            percent: 85,
+            id: 'circle4',
+            type: 'simple',
+            text: '',
+            strokeLinecap: "butt",
+            noPercentageSign: false,
+            backgroundCircleWidth: 15,
+            foregroundCircleWidth: 15,
         });
     </script>
 </body>

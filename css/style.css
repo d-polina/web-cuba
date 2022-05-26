@@ -243,6 +243,9 @@
 #text-circle  {
     display: none;
 }
+.circle-text {
+    display: none;
+}
 .foreground-circle {
     background-color: #000;
 }
