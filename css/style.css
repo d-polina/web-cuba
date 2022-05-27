@@ -219,7 +219,8 @@
 
 /* skills */
 .skills {
-    height: 100vh;
+    /* height: 100vh; */
+    height: 660px;
     background-color: #fff;
     text-align: center;
 }
@@ -266,4 +267,7 @@
     font-weight: 600;
     padding-top: 70px;
     
+}
+.skills-block-text-wide {
+    margin-left: -20px;
 }
