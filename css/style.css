@@ -219,7 +219,8 @@
 
 /* skills */
 .skills {
-    height: 100vh;
+    /* height: 100vh; */
+    height: 660px;
     background-color: #fff;
     text-align: center;
 }
@@ -238,12 +239,13 @@
 }
 .circle-container {
     height: 160px;
+    display: flex;
+}
+#text-circle  {
+    display: none;
 }
 .circle-text {
-    display: inline-block;
-    padding-top: 10px;
-    font-size: 30px;
-    color: #3c4761;
+    display: none;
 }
 .foreground-circle {
     background-color: #000;
@@ -265,4 +267,7 @@
     font-weight: 600;
     padding-top: 70px;
     
+}
+.skills-block-text-wide {
+    margin-left: -20px;
 }
