@@ -219,7 +219,6 @@
 
 /* skills */
 .skills {
-    /* height: 100vh; */
     height: 660px;
     background-color: #fff;
     text-align: center;
@@ -270,4 +269,117 @@
 }
 .skills-block-text-wide {
     margin-left: -20px;
+}
+
+/* portfolio */
+.portfolio {
+    height: 100%;
+    background-color: #ffdd99;
+    color: #fff;
+    text-align: center;
+}
+.portfolio-text {
+    margin: 0 250px;
+}
+.portfolio-text-header {
+    color: #393939;
+    padding-top: 50px;
+}
+.portfolio-text-line {
+    background-color: #e5c37f;
+}
+.portfolio-text-p {
+    color: #534f46;
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-a {
+    background-color: #ebc985;
+    border: solid 2px #ebc985;
+    padding: 0px 20px;
+    border-radius: 3px;
+    margin-left: 0px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+.uk-subnav {
+    justify-content: center;
+    
+}
+.uk-subnav>* {
+    padding-left: 15px;
+}
+.uk-subnav-pill>*>:first-child {
+    padding: 0 20px;
+    background-color: #ebc985;
+    color: #393939;
+    transition: background 0.3s ease-out;
+}
+.uk-subnav-pill>*>:first-child:hover{
+    background-color: #ffdd99;
+}
+.uk-subnav-pill>.uk-active>a {
+    background-color: #fff;
+    border: solid 2px #fff;
+    color: #393939;
+}
+.uk-subnav-pill>.uk-active>a:hover {
+    background-color: #fff;
+}
+/* .li-button {
+    background-color: #ebc985;
+    border: solid 2px #ebc985;
+    padding: 0px 20px;
+    border-radius: 3px;
+    margin-left: 8px;
+    line-height: 35px;
+    transition: background 0.3s ease-out;
+    margin-top: 25px;
+}
+.li-button:hover {
+    background-color: transparent;
+    border: #ebc985 solid 2px;
+}
+.li-button .uk-active {
+    background-color: #000;
+}
+
+.uk-subnav-pill>*>:first-child:hover {
+    background-color: transparent;
+}
+.uk-subnav-pill>.uk-active>a {
+    border: none;
+    background-color: transparent;
+}
+.uk-button {
+    background-color: #ebc985;
+    border: solid 2px #ebc985;
+    padding: 0px 20px;
+    border-radius: 3px;
+    margin-left: 8px;
+    line-height: 35px;
+    transition: background 0.3s ease-out;
+    margin-top: 25px;
+}
+.uk-button:hover {
+    background-color: #ffdd99;
+    border: #ebc985 solid 2px;
+}
+.uk-button.uk-active {
+    border: solid 2px #fff;
+    background-color: #fff;
+} */
+.portfolio-li {
+    padding-top: 60px;
+}
+.portfolio-img {
+    height: 310px;
+    /* padding-bottom: 35px; */
+}
+.portfolio-text-li-p {
+    font-size: 18px;
+    color: #393939;
+    text-transform: uppercase;
+    margin-top: 30px;
 }
