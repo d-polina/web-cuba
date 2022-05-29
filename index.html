@@ -295,13 +295,12 @@
     </div> -->
     <!-- /.portfolio -->
 
-    <div class="reviews">
+    <!-- <div class="reviews">
         <div class="reviews-text text-header">
             <h2 class="reviews-text-header">WHAT PEOPLE SAY ABOUT US</h2>
             <div class="reviews-text-line text-line"></div>
             <p class="reviews-text-p text-header-p">Our clients love us!</p>
         </div>
-
         <div class="reviews-cards">
             <div class="reviews-card">
                 <img src="/img/Mugshot-reviews.png" alt="Photo" class="reviews-card-img">
@@ -336,8 +335,7 @@
                 </div>
             </div>
         </div>
-        <!-- /.reviews-cards -->
-    </div>
+    </div> -->
     <!-- /.reviews -->
 
     <div class="contact">
@@ -348,12 +346,20 @@
             </p>
         </div>
 
-        <div class="contact-form">
-            <label>Your Name<input type="text" required></label>
-            <label>Your Email<input type="text" required></label>
-            <textarea>Your Message</textarea>
+        <div class="contact-form-wrap">
+            <div class="contact-form">
+                <div class="contact-form-inputs">
+                    <!-- <label class="control-label required" for="username"></label>  placeholder="Your Name" -->
+                    <div class="placeholder">Your Name <span class="red sup">&#9733;</span></div>
+                    <input  name="username" class="required-field contact-form-input" type="text" required>
+                    <input placeholder="Your Email" class="contact-form-input contact-form-input-email" type="text" required>
+                </div>
+                <textarea class="contact-form-textarea" placeholder="Your Message" required></textarea>
+            </div>
             <button class="contact-button">Send Message</button>
         </div>
+        
+        
         <!-- /.contact-form -->
     </div>
     <!-- /.contact -->
