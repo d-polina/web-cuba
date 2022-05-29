@@ -305,7 +305,7 @@
 }
 .uk-subnav {
     justify-content: center;
-    
+    margin-bottom: 40px;
 }
 .uk-subnav>* {
     padding-left: 15px;
@@ -327,59 +327,49 @@
 .uk-subnav-pill>.uk-active>a:hover {
     background-color: #fff;
 }
-/* .li-button {
-    background-color: #ebc985;
-    border: solid 2px #ebc985;
-    padding: 0px 20px;
-    border-radius: 3px;
-    margin-left: 8px;
-    line-height: 35px;
-    transition: background 0.3s ease-out;
-    margin-top: 25px;
-}
-.li-button:hover {
-    background-color: transparent;
-    border: #ebc985 solid 2px;
-}
-.li-button .uk-active {
-    background-color: #000;
-}
+.uk-switcher {
+    display: inline-block;
 
-.uk-subnav-pill>*>:first-child:hover {
-    background-color: transparent;
 }
-.uk-subnav-pill>.uk-active>a {
-    border: none;
-    background-color: transparent;
-}
-.uk-button {
-    background-color: #ebc985;
-    border: solid 2px #ebc985;
-    padding: 0px 20px;
-    border-radius: 3px;
-    margin-left: 8px;
-    line-height: 35px;
-    transition: background 0.3s ease-out;
-    margin-top: 25px;
-}
-.uk-button:hover {
-    background-color: #ffdd99;
-    border: #ebc985 solid 2px;
-}
-.uk-button.uk-active {
-    border: solid 2px #fff;
-    background-color: #fff;
-} */
-.portfolio-li {
-    padding-top: 60px;
+.uk-margin {
+    margin: 0;
 }
 .portfolio-img {
+    /* padding-top: 60px; */
     height: 310px;
-    /* padding-bottom: 35px; */
+    padding-right: 20px;
 }
 .portfolio-text-li-p {
     font-size: 18px;
     color: #393939;
     text-transform: uppercase;
     margin-top: 30px;
+}
+.portfolio-button {
+    background-color: #17c2a4;
+    border: 2px solid #17c2a4;
+    box-shadow: 0 5px 0 #14a58c;
+    transition: background 0.5s ease;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.portfolio-button:hover {
+    cursor: pointer;
+    animation: sawtooth 0.35s infinite linear;
+    background: linear-gradient(45deg, #ebc985 0.6em, transparent 0.5em) 0 0 / 1em 1em
+              , linear-gradient(-45deg, #ebc985 0.6em, transparent 0.5em) 0 0 / 1em 1em;
+    color: adjust-hue(#ebc985,180);
+}
+  
+@keyframes sawtooth {
+    100% {
+      background-position: 1em 0px;
+    }
+  }
+.portfolio-button:active{
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+    border: 2px solid #17c2a4;
+    background: #14a58c;
+    animation: none;
 }
