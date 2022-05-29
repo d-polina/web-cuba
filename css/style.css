@@ -329,13 +329,11 @@
 }
 .uk-switcher {
     display: inline-block;
-
 }
 .uk-margin {
     margin: 0;
 }
 .portfolio-img {
-    /* padding-top: 60px; */
     height: 310px;
     padding-right: 20px;
 }
@@ -372,4 +370,63 @@
     border: 2px solid #17c2a4;
     background: #14a58c;
     animation: none;
+}
+
+/* reviews */
+.reviews {
+    height: 100vh;
+    background-color: #d74680;
+    color: #fff;
+    text-align: center;
+}
+.reviews-text {
+    margin: 0 250px;
+}
+.reviews-text-header {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.reviews-text-line {
+    background-color: #b73c6d;
+}
+.reviews-text-p {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.reviews-cards {
+    justify-content: space-evenly;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.reviews-card {
+    display: flex;
+    direction: row;
+    width: 540px;
+    padding-bottom: 65px;
+}
+.reviews-card-img {
+    height: 100px;
+    padding-right: 50px;
+}
+.reviews-card-text {
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 300;
+}
+.reviews-card-name {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+.reviews-card-post {
+    font-size: 18px;
+    color: #ffdd99;
+}
+.reviews-card-p {
+    text-align: left;
 }
