@@ -345,22 +345,25 @@
             <p class="contact-text-p text-header-p">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
             </p>
         </div>
-
         <div class="contact-form-wrap">
             <div class="contact-form">
                 <div class="contact-form-inputs">
-                    <!-- <label class="control-label required" for="username"></label>  placeholder="Your Name" -->
-                    <div class="placeholder">Your Name <span class="red sup">&#9733;</span></div>
-                    <input  name="username" class="required-field contact-form-input" type="text" required>
-                    <input placeholder="Your Email" class="contact-form-input contact-form-input-email" type="text" required>
+                    <div class="contact-form-input-wrap">
+                        <input id="username" name="username" class="required-field contact-form-input" type="text" required />
+                        <span class="placeholder">Your Name <span>*</span></span>
+                    </div>
+                    <div class="contact-form-input-wrap">
+                        <input class=" contact-form-input contact-form-input-email" required />
+                        <span class="placeholder-email placeholder">Your Email <span>*</span></span>
+                    </div>
                 </div>
-                <textarea class="contact-form-textarea" placeholder="Your Message" required></textarea>
+                <div class="contact-form-input-wrap">
+                    <textarea class=" contact-form-textarea"  required></textarea>
+                    <span class="placeholder-textarea placeholder">Your Message <span>*</span></span>
+                </div>
             </div>
             <button class="contact-button">Send Message</button>
         </div>
-        
-        
-        <!-- /.contact-form -->
     </div>
     <!-- /.contact -->
 
@@ -444,5 +447,6 @@
             foregroundCircleWidth: 15,
         });
     </script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
