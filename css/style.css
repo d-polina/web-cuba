@@ -1,3 +1,7 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 /* main */
 .main {
     height: 100vh;
@@ -94,11 +98,13 @@
 .text-header {
     font-size: 18px;
     margin: 0px 270px;
+    
 }
 .text-header-h2 {
     font-size: 40px;
     color: #fff;
     padding-top: 60px;
+    font-weight: 600;
 }
 .text-line {
     position: absolute;
@@ -112,6 +118,9 @@
 }
 .text-header-p {
     margin-top: 40px;
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* advantages */
@@ -121,10 +130,15 @@
     color: #fff;
     text-align: center;
 }
+.advantages-text-p {
+    width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .advantages-blocks{
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: baseline;
 }
 .advantages-block {
     margin-top: 60px;
@@ -133,11 +147,11 @@
 .advantages-block-header {
     font-size: 24px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
     margin-top: 60px;
 }
 .advantages-block-text {
-    width: 210px;
+    width: 200px;
 }
 
 /* team */
@@ -165,7 +179,7 @@
     justify-content: space-evenly;
 }
 .team-card {
-    width: 215px;
+    width: 200px;
 }
 .team-card-img {
     width: 200px;
@@ -175,7 +189,7 @@
     font-size: 24px;
     color: #27283d;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 25px;
 }
 .team-card-post {
@@ -226,6 +240,7 @@
 .skills-text-header {
     text-transform: uppercase;
     padding-top: 60px;
+    font-weight: 600;
 }
 .skills-text-line {
     background-color: #dfe8ed;
@@ -426,6 +441,7 @@
     font-size: 24px;
     text-transform: uppercase;
     padding-top: 25px;
+    font-weight: 600;
 }
 .reviews-card-post {
     font-size: 18px;
@@ -457,6 +473,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 35px;
+    width: 100%;
 }
 .contact-form {
     margin-left: auto;
@@ -499,14 +516,13 @@
   font-size: 18px;
   left: 25px; 
   top: 18px;
-  /* z-index: -1; */
 }
 .placeholder-email {
     left: 470px; 
 }
 .placeholder-textarea {
     left: 270px;
-    top: 712%;
+    top: 710%;
     bottom: 0;
 }
 .contact-form-input:focus ~ .placeholder{
