@@ -469,45 +469,62 @@
     position: relative;
 }
 .contact-form-input {
+    width: 370px;
     background-color: #273a71;
     font-size: 18px;
     color: #fff;
     border-radius: 5px;
     border: 2px solid #273a71;
-    padding: 20px 23% 20px 20px;
+    padding: 20px;
+}
+.contact-form-input-email {
+    margin-left: 30px;
+}
+.placeholder span {
+    color: red;
+}
+.contact-form-input-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .placeholder {
-    position:absolute;
-    left: 20px;
-    top: 33%;
-    font-size: 18px;
-    transform:translateY(-50%);
-    pointer-events:none;
+  position: absolute;
+  font-size: 18px;
+  left: 25px; 
+  top: 18px;
+  /* z-index: -1; */
 }
-.red {
-    color:red;
-    vertical-align: super;
-    font-size:8px;
+.placeholder-email {
+    left: 470px; 
 }
-.contact-form-inputs:focus ~ .placeholder,
-.contact-form-inputs:valid ~ .placeholder {
-  display:none;
+.placeholder-textarea {
+    left: 270px;
+    top: 343px;
 }
-.contact-form-input:focus {
-    
+.contact-form-input:focus ~ .placeholder{
+  color: #999;
+}
+.contact-form-textarea:focus ~ .placeholder {
+    color: #999;
+}
+:focus::-webkit-input-placeholder {
+    color: transparent;
 }
 
-/* placeholder::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: red;
-    content: '*';
-  } */
-/* label.required:after {
-    color: red;
-    content: " *";
-} */
+:focus::-moz-placeholder {
+    color: transparent;
+}
+
+:focus:-moz-placeholder {
+    color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent;
+}
 ::-webkit-resizer {
     width: 1px;
     background: url(/img/ArrowTextarea.png);
@@ -516,9 +533,6 @@
 :focus-visible {
     outline: 2px solid #30bae7;
 }
-.contact-form-input-email {
-    margin-left: 40px;
-}
 .contact-form-textarea {
     background-color: #273a71;
     font-size: 18px;
@@ -526,7 +540,7 @@
     border-radius: 5px;
     border: 2px solid #273a71;
     font-family: Arial;
-    padding: 20px 280px 150px 20px;
+    padding: 20px 640px 150px 20px;
     margin-bottom: 45px;
 }
 .contact-button {
@@ -567,7 +581,4 @@
     border: 2px solid #30bae7;
     background: #299ec5;
     animation: none;
-}
-::placeholder {
-    color: #fff;
 }
