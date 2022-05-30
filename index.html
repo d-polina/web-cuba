@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <!-- <div class="main">
+    <div class="main">
         <header class="header">
             <div class="logo">
                 <img src="/img/main-logo.png" alt="Logo Cuda">
@@ -29,10 +29,10 @@
         <div class="button-wrap">
             <button class="main-button">WORK WITH US!</button>
         </div>
-    </div> -->
+    </div>
     <!-- /main --> 
 
-    <!-- <div class="advantages">
+    <div class="advantages">
         <div class="advantages-text text-header">
             <h2 class="advantages-text-header text-header-h2">SERVICES WE PROVIDE</h2>
             <div class="advantages-text-line text-line"></div>
@@ -63,10 +63,10 @@
                 <p class="advantages-block-text">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- /.advantages -->
 
-    <!-- <div class="team">
+    <div class="team">
         <div class="team-text text-header">
             <h2 class="team-text-header text-header-h2">MEET OUR BEAUTIFUL TEAM</h2>
             <div class="team-text-line text-line"></div>
@@ -179,16 +179,16 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- /.team -->
 
-    <!-- <div class="skills">
+    <div class="skills">
         <div class="skills-text text-header">
             <h2 class="skills-text-header">We got skills!</h2>
             <div class="skills-text-line text-line"></div>
             <p class="skills-text-p text-header-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <div class="skills-blocks">
+        <div class="skills-blocks" id="skills-blocks">
             <div class="skills-block">
                 <div class="skills-block-circle" id="circle">
                     <p class="skills-block-digit">90<span class="skills-block-percent">%</span></p>
@@ -212,16 +212,16 @@
 
             <div class="skills-block">
                 <div class="skills-block-circle" id="circle4">
-                    <p class="skills-block-digit">85<span class="skills-block-percent">%</span></p>
+                    <p class="skills-block-digit skills-block-digit-last ">85<span class="skills-block-percent">%</span></p>
                 </div>
                 <div class="skills-block-text">UI / UX</div>
             </div>
 
         </div>
-    </div> -->
+    </div> 
     <!-- /.skills -->
 
-    <!-- <div class="portfolio">
+    <div class="portfolio">
         <div class="portfolio-text text-header">
             <h2 class="portfolio-text-header">OUR PORTFOLIO</h2>
             <div class="portfolio-text-line text-line"></div>
@@ -292,10 +292,10 @@
         <div class="button-wrap">
             <button class="portfolio-button main-button">LOAD MORE PROJECTS</button>
         </div>
-    </div> -->
+    </div>
     <!-- /.portfolio -->
 
-    <!-- <div class="reviews">
+    <div class="reviews">
         <div class="reviews-text text-header">
             <h2 class="reviews-text-header">WHAT PEOPLE SAY ABOUT US</h2>
             <div class="reviews-text-line text-line"></div>
@@ -335,10 +335,10 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- /.reviews -->
 
-    <!-- <div class="contact">
+    <div class="contact">
         <div class="contact-text text-header">
             <h2 class="contact-text-header">GET IN TOUCH</h2>
             <div class="contact-text-line text-line"></div>
@@ -358,13 +358,13 @@
                     </div>
                 </div>
                 <div class="contact-form-input-wrap">
-                    <textarea class=" contact-form-textarea"  required></textarea>
+                    <textarea class="contact-form-textarea"  required></textarea>
                     <span class="placeholder-textarea placeholder">Your Message <span>*</span></span>
                 </div>
             </div>
             <button class="contact-button">Send Message</button>
         </div>
-    </div> -->
+    </div>
     <!-- /.contact -->
 
     <footer class="footer">
@@ -396,57 +396,10 @@
         <!-- /.footer-menu -->
     </footer>
     <!-- /.footer -->
-
+    <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
     <script src="/js/uikit.min.js"></script>
     <script src="/js/uikit-icons.min.js"></script>
     <script src="dist/circliful.js"></script>
-    <script>
-        // circliful.newCircle({
-        //     percent: 90,
-        //     id: 'circle',
-        //     type: 'plain',
-        // });
-        circliful.newCircle({
-            percent: 90,
-            id: 'circle',
-            type: 'simple',
-            text: '',
-            strokeLinecap: "butt",
-            noPercentageSign: false,
-            backgroundCircleWidth: 15,
-            foregroundCircleWidth: 15,
-        });
-        circliful.newCircle({
-            percent: 75,
-            id: 'circle2',
-            type: 'simple',
-            text: '',
-            strokeLinecap: "butt",
-            noPercentageSign: false,
-            backgroundCircleWidth: 15,
-            foregroundCircleWidth: 15,
-        });
-        circliful.newCircle({
-            percent: 70,
-            id: 'circle3',
-            type: 'simple',
-            text: '',
-            strokeLinecap: "butt",
-            noPercentageSign: false,
-            backgroundCircleWidth: 15,
-            foregroundCircleWidth: 15,
-        });
-        circliful.newCircle({
-            percent: 85,
-            id: 'circle4',
-            type: 'simple',
-            text: '',
-            strokeLinecap: "butt",
-            noPercentageSign: false,
-            backgroundCircleWidth: 15,
-            foregroundCircleWidth: 15,
-        });
-    </script>
     <script src="/js/main.js"></script>
 </body>
 </html>

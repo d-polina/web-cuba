@@ -254,7 +254,11 @@
     width: 50%;
     position: absolute;
     padding-top: 40px;
-    margin-left: -258px;
+    margin-left: -254px;
+}
+.skills-block-digit-last {
+    width: 250px;
+    margin-left: -43px;
 }
 .skills-block-percent {
     font-size: 32px;
@@ -502,7 +506,8 @@
 }
 .placeholder-textarea {
     left: 270px;
-    top: 343px;
+    top: 712%;
+    bottom: 0;
 }
 .contact-form-input:focus ~ .placeholder{
   color: #999;
@@ -594,9 +599,11 @@
     justify-content: space-evenly;
     list-style-type: none;
     padding: 45px 0 50px 0;
+    margin: 0;
 }
 .footer-menu-ul a {
     color: #fff;
+    cursor: pointer;
     font-size: 24px;
     transition: color 0.3s ease-out;
 }
