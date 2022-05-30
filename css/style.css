@@ -430,3 +430,155 @@
 .reviews-card-p {
     text-align: left;
 }
+
+/* contact form */
+.contact {
+    height: 100vh;
+    background-color: #3c5499;
+    color: #fff;
+    text-align: center;
+}
+.contact-text {
+    margin: 0 250px;
+}
+.contact-text-header {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 55px;
+}
+.contact-text-line {
+    background-color: #273a71;
+}
+.contact-text-p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 35px;
+}
+.contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form-inputs {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+.contact-form-input {
+    width: 370px;
+    background-color: #273a71;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #273a71;
+    padding: 20px;
+}
+.contact-form-input-email {
+    margin-left: 30px;
+}
+.placeholder span {
+    color: red;
+}
+.contact-form-input-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.placeholder {
+  position: absolute;
+  font-size: 18px;
+  left: 25px; 
+  top: 18px;
+  /* z-index: -1; */
+}
+.placeholder-email {
+    left: 470px; 
+}
+.placeholder-textarea {
+    left: 270px;
+    top: 343px;
+}
+.contact-form-input:focus ~ .placeholder{
+  color: #999;
+}
+.contact-form-textarea:focus ~ .placeholder {
+    color: #999;
+}
+:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+:focus::-moz-placeholder {
+    color: transparent;
+}
+
+:focus:-moz-placeholder {
+    color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent;
+}
+::-webkit-resizer {
+    width: 1px;
+    background: url(/img/ArrowTextarea.png);
+    background-repeat: no-repeat;
+}
+:focus-visible {
+    outline: 2px solid #30bae7;
+}
+.contact-form-textarea {
+    background-color: #273a71;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #273a71;
+    font-family: Arial;
+    padding: 20px 640px 150px 20px;
+    margin-bottom: 45px;
+}
+.contact-button {
+    width: 375px;
+    border: 2px solid #30bae7;
+    border-bottom-width: 4px;
+    font-size: 18px;
+    letter-spacing: inherit;
+    margin: 1em;
+    padding: 30px 80px;
+    text-transform: inherit;
+    background-color: #30bae7;
+    box-shadow: 0 5px 0 #299ec5;
+    transition: color 1s;
+    border-radius: 5px;
+  }
+
+.contact-button {
+    color: #fff;
+    transition: background 0.3s ease, box-shadow 0.2s linear;
+}
+.contact-button:hover {
+    cursor: pointer;
+    animation: sawtooth 0.35s infinite linear;
+    background: linear-gradient(45deg, #273a71 0.6em, transparent 0.5em) 0 0 / 1em 1em
+              , linear-gradient(-45deg, #273a71 0.6em, transparent 0.5em) 0 0 / 1em 1em;
+    color: adjust-hue(#273a71,180);
+}
+  
+@keyframes sawtooth {
+    100% {
+      background-position: 1em 0px;
+    }
+  }
+.contact-button:active{
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+    border: 2px solid #30bae7;
+    background: #299ec5;
+    animation: none;
+}
