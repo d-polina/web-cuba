@@ -582,3 +582,25 @@
     background: #299ec5;
     animation: none;
 }
+
+/* footer */
+
+.footer {
+    background-color: #344b8e;
+}
+.footer-menu-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 45px 0 50px 0;
+}
+.footer-menu-ul a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease-out;
+}
+.footer-menu-ul a:hover{
+    color: #30bae7;
+    text-decoration: none;
+}
