@@ -60,4 +60,15 @@ for(let i = 0; i <= form.length; i++){
     form[i].addEventListener('input', function(){
     hold[i].style.display = ( this.value == "" ) ? 'inline' : 'none';
   });
+
+
+//Плавная прокрутка к якорю
+$("body").on('click', '[href*="#"]', function(e){
+    var fixed_offset = 0;
+    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+    e.preventDefault();
+  });
+$('.main-button').on('click', function() {
+    $('html,body').animate({scrollTop:$('#contact').offset().top+"px"},{duration:1E3});
+});
 }
