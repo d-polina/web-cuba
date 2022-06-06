@@ -803,6 +803,9 @@
     .contact-form-input {
         width: 270px;
     }
+    .contact-form-textarea {
+        width: inherit;
+    }
     .placeholder-email {
         left: 370px;
     }
